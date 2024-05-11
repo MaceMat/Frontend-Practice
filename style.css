@@ -1,0 +1,50 @@
+h1 {
+    text-decoration: underline;
+  }
+  
+  header {
+    background-color: #4a4e4d;
+    background-size: cover;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+  }
+  
+  li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #828685;
+  }
+  
+  a:hover {
+    color: #c6c8ca;
+  }
+  button {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0px 5px;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+  
+  button:active {
+    margin-top: 5px;
+    color: black;
+    box-shadow: 0px 0px;
+  }  

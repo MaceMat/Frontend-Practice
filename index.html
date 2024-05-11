@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <header>
+        <!-- Navigation Bar -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Your main content goes here -->
+        <section>
+            <h1>To-Do List</h1>
+            <p>Enter name of task than click submit.</p>
+            <form>
+                <label for="task">Task</label>
+                <input type="text" name="task" id="task" />
+                <input type="submit" name="submit" id="submit" value="Submit" />
+            </form>
+            <ul id="task-list"></ul>
+        </section>
+    </main>
+    
+    <footer>
+        <!-- Footer Section -->
+        <p>&copy; 2024 Your Website. All rights reserved.</p>
+    </footer>
+    
+    <!-- Add your JavaScript scripts here -->
+    <script src="scripts.js"></script>
+    </body>
+</html>
