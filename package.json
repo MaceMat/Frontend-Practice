@@ -1,0 +1,14 @@
+{
+  "name": "to-do-list",
+  "version": "1.0.0",
+  "description": "my first full stack project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "M&M",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
